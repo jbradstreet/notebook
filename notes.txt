@@ -1,3 +1,6 @@
+#git is awesome
+git init
+
 
 # lists files in Home Directory and sorts it
 ls ~ | sort
@@ -30,7 +33,7 @@ cd ~
 ls -l
 cd ..
 
-# note the sytax after "Group". This lets you escape the white space in the file name. 
+# note the sytax after "Group". This lets you escape the white space in the file name.
 cd /Users/jennibradstreet/Library/Group\ Containers/
 cd /Users/jennibradstreet/Library/Keychains
 cd /Users/jennibradstreet/Library/Group Containers
