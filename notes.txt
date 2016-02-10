@@ -1,0 +1,119 @@
+
+# lists files in Home Directory and sorts it
+ls ~ | sort
+
+# displays the content of the notes.txt
+cat notes.txt
+
+# take the output of "history" and input it to the "sort" command
+history | sort > notes.txt
+
+# takes output of history and puts it in the file. Replaces what is already there
+history > notes.txt
+
+# appends the output history to content that already exists in the file
+history >> notes.txt
+
+# shortcut for ls -lh
+ll
+ls
+
+# displays the history of the commands used so far
+history
+rm notes.txt
+touch notes.txt
+cd notebook/
+mkdir notebook
+cd Projects
+pwd
+cd ~
+ls -l
+cd ..
+
+# note the sytax after "Group". This lets you escape the white space in the file name. 
+cd /Users/jennibradstreet/Library/Group\ Containers/
+cd /Users/jennibradstreet/Library/Keychains
+cd /Users/jennibradstreet/Library/Group Containers
+cd /Users/jennibradstreet/Library/Google/GoogleSoftwareUpdate
+cd /Users/jennibradstreet/Library/Google
+cd /Users/jennibradstreet/Library
+cd D
+cd .
+cd /
+man ls
+cd /Users/jennibradstreet/Downloads
+cd
+open .
+cd /Applications/
+tree -L 2
+tree -aL 1
+tree -aL
+tree -L 1
+brew install tree
+ls .config/fish
+ls -a
+man -l@
+ls -A
+ls -R
+ls -o
+ls -F
+ls -u
+man -x
+ls -x
+ls -i
+ls -tr
+ls -r
+clear
+ls -lt
+ls -t
+open /Users/jennibradstreet
+echo ~
+which whoami
+whoami
+open http://jbradstreet.surge.sh
+surge
+git commit -m 'Add a CNAME'
+git add CNAME
+touch CNAME
+git commit -m 'Add a tiny web page'
+git status
+git add index.html
+open index.html
+atom .
+touch index.html
+git init
+cd jbradstreet.surge.sh/
+mkdir jbradstreet.surge.sh
+mkdir ~/Projects
+surge -V
+npm install -g surge
+rm ~/Desktop/test.js
+node ~/Desktop/test.js
+atom ~/Desktop/test.js
+node
+node -v
+brew install node
+curl -fsSL https://git.io/vgqFH | sh
+git config --global user.email 'jennic15@gmail.com'
+git config --global user.name 'Jenni Bradstreet'
+git --version
+which git
+brew install git
+which echo
+echo $PATH
+shout $PATH
+echo $EDITOR
+atom ~/.config/fish/config.fish
+brew info fish
+fish_update_completions
+curl -fsSL https://git.io/vgqFU | ruby
+chsh -s /usr/local/bin/fish
+echo '/usr/local/bin/fish' | sudo tee -a /etc/shells
+brew install fish
+brew doctor
+brew update
+ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+uname
+ls -G
+atom .
+history > notes.txt
