@@ -1,6 +1,8 @@
+# github is a great place to store your timeline
+git push -u origin master
+
 #git is awesome
 git init
-
 
 # lists files in Home Directory and sorts it
 ls ~ | sort
